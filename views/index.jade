@@ -1,5 +1,17 @@
 extends layout
 
 block content
+  - var l= list
   h1= title
   p Welcome to #{title}
+  br
+  table(border=1)
+    thead
+      td ranking
+      td name
+      td pontuação
+    each i,r in (list)
+      tr
+        td= r
+        each d in (i)
+          td= d
