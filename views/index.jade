@@ -3,16 +3,14 @@ extends layout
 block content
   - var l= list
   h1= title
-  p Welcome to #{title}
+  p TOP 200 PLAYERS
   br
   table()
     thead
       td ranking
       td name
       td pontuação
-      td braun
-    each i,r in (list)
+    each i in (list)
       tr
-        td= r
         each d in (i)
           td= d

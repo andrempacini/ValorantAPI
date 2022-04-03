@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Microbe&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee&display=swap');
 body {
   padding: 50px;
   font: 35px Andale Mono, monospace, sans-serif;
@@ -9,6 +12,14 @@ body {
 
 h1{
   font-family: 'Libre Barcode 39 Text', cursive;
+  font-size:80pt;
+  text-shadow:3px 3px 10px red;
+}
+
+p{
+  font-family: 'Permanent Marker', cursive;
+  text-shadow:1px 1px 10px white;
+  color:#131212;
 }
 
 a {
@@ -26,6 +37,7 @@ table{
 }
 
 table td{
+  font-family: 'Bungee', cursive;
   color:#ffffff;
   text-align: center;
   border-bottom: 3px solid #ffffff;
@@ -38,7 +50,7 @@ thead td{
   font-size: 30px;
   font-style: bolder;
   color:#ffffff;
-  text-shadow: 2px 2px 3px #ff0000;
+  text-shadow: 1px 1px 5px white;
 }
 
 
