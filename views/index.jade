@@ -3,14 +3,10 @@ extends layout
 block content
   - var l= list
   h1= title
-  p TOP 200 PLAYERS
-  br
-  table()
-    thead
-      td ranking
-      td name
-      td pontuação
-    each i in (list)
-      tr
-        each d in (i)
-          td= d
+  each ep in eps
+    p= ep.name
+    br
+    each ato in ep.atos
+      a(href="/val/"+ato.id)= ato.name
+      br
+    br
