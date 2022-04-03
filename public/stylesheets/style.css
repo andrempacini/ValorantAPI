@@ -6,3 +6,12 @@ body {
 a {
   color: #00B7FF;
 }
+
+table{
+  min-width: 300px;
+  background-color: #deb221c2;
+}
+table td{
+  color:#ffffff;
+  text-align: center;
+}
