@@ -1,6 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+39+Text&display=swap');
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 35px Andale Mono, monospace, sans-serif;
+  background-color: #131212;
+  color:#ffffff;
+  text-align:center;
+}
+
+h1{
+  font-family: 'Libre Barcode 39 Text', cursive;
 }
 
 a {
@@ -8,10 +16,29 @@ a {
 }
 
 table{
+  margin:auto;
   min-width: 300px;
-  background-color: #deb221c2;
+  background-color: #131212;
+  border-spacing: 0px;
+  border:none;
+  box-shadow: 3px 3px 3px #ff0000;
+  font:20px Andale Mono, monospace;
 }
+
 table td{
   color:#ffffff;
   text-align: center;
+  border-bottom: 3px solid #ffffff;
+  border-right: 3px solid #ffffff;
+  border-spacing: 0px;
+  padding:10px;
 }
+
+thead td{
+  font-size: 30px;
+  font-style: bolder;
+  color:#ffffff;
+  text-shadow: 2px 2px 3px #ff0000;
+}
+
+

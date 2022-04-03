@@ -5,11 +5,12 @@ block content
   h1= title
   p Welcome to #{title}
   br
-  table(border=1)
+  table()
     thead
       td ranking
       td name
       td pontuação
+      td braun
     each i,r in (list)
       tr
         td= r
