@@ -8,7 +8,7 @@ exports.getActs = async () => {
             method: "get",
             url: "https://br.api.riotgames.com/val/content/v1/contents?locale=pt-BR",
             headers: {
-                "X-Riot-Token": "RGAPI-9649fa17-41b6-4594-af29-5617784d2a8a"
+                "X-Riot-Token": "RGAPI-bfb3b8d1-e371-4786-a400-aae9c7da667e"
             }
         })
     } catch {
@@ -37,7 +37,7 @@ exports.getLeaderboard = async (acts) => {
             method: "get",
             url: "https://br.api.riotgames.com/val/ranked/v1/leaderboards/by-act/" + acts,
             headers: {
-                "X-Riot-Token": "RGAPI-9649fa17-41b6-4594-af29-5617784d2a8a"
+                "X-Riot-Token": "RGAPI-bfb3b8d1-e371-4786-a400-aae9c7da667e"
             }
         })
     } catch {
